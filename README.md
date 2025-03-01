@@ -5,6 +5,10 @@ A Powerful But Simple API For NBT Data Storage Arrays.
 
 Inspired mostly by Rust's `Vec`.  
 
+> [!IMPORTANT]  
+> Most of these functions use macros, which does come at a peformance cost.  
+> Large operations should be avoided & done manually.  
+
 ```mcfunction
 # Create a new vec & push a value
 function vec:new {v: arr, contents: []}
