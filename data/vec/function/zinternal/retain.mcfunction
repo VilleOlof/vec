@@ -1,0 +1,2 @@
+$execute store success score zzz_vec_success zzz_vec_internal run function $(predicate) with storage vec out
+execute if score zzz_vec_success zzz_vec_internal matches 1 run data modify storage vec:z_internal retain.out append from storage vec out.value

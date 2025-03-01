@@ -1,0 +1,7 @@
+{
+  "pack": {
+      "pack_format": 61,
+      "description": "A Rust 'vec' Inspired API to NBT Data Storage Arrays",
+      "supported_formats": [48, 61]
+  }
+}
